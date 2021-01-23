@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  margin-top: 30px;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.562);
+}
+
+nav {
+  max-width: 450px;
+  margin-left: auto;
+}
+
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  height: 30px;
+  width: 80px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  transform: scale(1.4);
+  font-weight: 700;
+}
+
+
+p {
+  color: #3E3E3E;
+}
+
+#first_section, #about {
+  display: flex;
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.half_width {
+  max-width: 500px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.user_img {
+  max-width: 400px;
+  display: flex;
+  margin: auto;
+}
+
+.big_font {
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+.blue_text {
+  color: #363958;
+  font-weight: 700;
+  font-size: 47px;
+}
+
+.tomato_color {
+  color: tomato;
+}
+
+.fancy_button {
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  background-image: linear-gradient(rgb(243, 114, 91), rgb(231, 46, 13));
+}
+
+.fancy_button a {
+  text-decoration: none;
+  color: white;
+}
+
+
+#latest_work {
+  height: 600px;
+  background: #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+#cards_section {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.working_cards {
+  max-width: 300px;
+  height: 330px;
+  background: white;
+  border-radius: 20px;
+}
+
+.working_cards img {
+  width: 90%;
+  margin: 10px 5%;
+}
+
+.card_text {
+  margin: 20px;
+}
+
+.card_text h3 {
+  color: #363958;
+}
+
+.card_text p {
+  text-align: justify;
+}
+
+#skills {
+  height: 400px;
+  background: rgb(207, 197, 231);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill_header {
+  font-size: 40px;
+  color: rgb(238, 17, 17);
+  text-align: center;
+}
+
+.skill {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.skill_name {
+  color: navy;
+  font-size: 30px;
+  width: 150px;
+}
+
+.skill_capacity {
+  width: 50%;
+  height: 27px;
+  margin-left: 10px;
+  background-color: whitesmoke;
+}
+
+.skill_meter {
+  height: 100%;
+  background-color:  rgb(238, 17, 17);
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+#html {
+  width: 80%;
+}
+
+#css {
+  width: 60%;
+}
+
+#bootstrap {
+  width: 50%;
+}
+
+#js {
+  width: 40%;
+}
+
+#work {
+  height: 200px;
+  width: 820px;
+  background-image: url(./shapes/Group_33094_1.png);
+  background-size: cover;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contact {
+  height: 380px;
+}
+
+#work h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.contact_footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact_footer h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #696871;
+
+}
+
+.contact_footer h2 {
+  color: #363958;
+}
+
+.icons img {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.text_center {
+  text-align: center;
+}
